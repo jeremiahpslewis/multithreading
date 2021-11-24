@@ -1,5 +1,8 @@
+using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile()
+
 using PerformanceTestTools
 using Logging
+using Pkg
 
 Logging.disable_logging(Logging.Info)
 
